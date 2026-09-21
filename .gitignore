@@ -1,0 +1,36 @@
+# --- Machine-specific environment (local only, not published) ---------------
+setup/
+
+# --- RTL simulation (GHDL / GTKWave) -----------------------------------------
+sim/work/
+sim/outputs/
+*.ghw
+*.vcd
+*.fst
+
+
+# --- Synopsys Fusion Compiler: generated files --------------------------------
+synth/outputs/
+pnr/outputs/
+*.dlib/
+*.nlib/
+alib-*/
+*.svf
+command.log
+
+# --- PDK and PDK-derived files (Synopsys University Program license) ---------
+*.db
+*.ndm
+*.tf
+*.tluplus
+*.gds
+*.gds2
+*.oas
+*.spef
+*.sdf
+
+# --- General -------------------------------------------------------------------
+*.log
+*~
+*.swp
+.DS_Store
