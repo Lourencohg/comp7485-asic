@@ -2,7 +2,7 @@
 setup/
 
 # --- RTL simulation (GHDL / GTKWave) -----------------------------------------
-sim/work/
+work/
 sim/outputs/
 *.ghw
 *.vcd

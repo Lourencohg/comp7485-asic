@@ -1,0 +1,102 @@
+Timing Update Started(Full_timing_update) : updateCount: 1 / Mem-peak : 1010 MB / Date: Tue Sep 22 08:20:14 2026
+
+Timing Update Completed: Mem-peak: 1010 MB / Date: Tue Sep 22 08:20:14 2026
+
+****************************************
+Report : qor
+Design : comp7485
+Version: Y-2026.03-SP1
+Date   : Tue Sep 22 08:20:14 2026
+****************************************
+Information: Corner default: no PVT mismatches. (PVT-032)
+Information: The stitching and editing of coupling caps is turned OFF for design 'comp7485.dlib:comp7485.design'. (TIM-125)
+Information: Design Average RC for design comp7485  (NEX-011)
+Information: r = 1.065254 ohm/um, via_r = 0.464718 ohm/cut, c = 0.063600 ff/um, cc = 0.000000 ff/um (X dir) (NEX-017)
+Information: r = 1.384202 ohm/um, via_r = 0.578659 ohm/cut, c = 0.072499 ff/um, cc = 0.000000 ff/um (Y dir) (NEX-017)
+Information: The RC mode used is VR for design 'comp7485'. (NEX-022)
+Information: Pin/Port with maximum arrivals in mode: 'default',  'A[3]'   : '1'. (TIM-134)
+Information: Average arrivals per pin/port in mode: 'default' : '1'. (TIM-136)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 26, routed nets = 0, across physical hierarchy nets = 0, parasitics cached nets = 26, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+************************************************************
+Timer Settings:
+Delay Calculation Style:                   auto
+Signal Integrity Analysis:                 disabled
+Timing Window Analysis:                    disabled
+Advanced Waveform Propagation:             disabled
+Variation Type:                            fixed_derate
+Clock Reconvergence Pessimism Removal:     disabled
+Advanced Receiver Model:                   disabled
+LLE:                                       disabled
+ML Acceleration:                           off
+Smart Arc Optimization:                    disabled
+************************************************************
+
+
+Scenario           'default'
+Timing Path Group  '**in2out_default**'
+----------------------------------------
+Levels of Logic:                      5
+Critical Path Length:              0.87
+Critical Path Slack:              19.13
+Critical Path Clk Period:         20.00
+Total Negative Slack:              0.00
+No. of Violating Paths:               0
+----------------------------------------
+
+
+Cell Count
+----------------------------------------
+Hierarchical Cell Count:              0
+Hierarchical Port Count:              0
+Leaf Cell Count:                     15
+Buf/Inv Cell Count:                   5
+Buf Cell Count:                       0
+Inv Cell Count:                       5
+Combinational Cell Count:            15
+   Single-bit Isolation Cell Count:                        0
+   Multi-bit Isolation Cell Count:                         0
+   Isolation Cell Banking Ratio:                           0.00%
+   Single-bit Level Shifter Cell Count:                    0
+   Multi-bit Level Shifter Cell Count:                     0
+   Level Shifter Cell Banking Ratio:                       0.00%
+   Single-bit ELS Cell Count:                              0
+   Multi-bit ELS Cell Count:                               0
+   ELS Cell Banking Ratio:                                 0.00%
+Sequential Cell Count:                0
+   Integrated Clock-Gating Cell Count:                     0
+   Sequential Macro Cell Count:                            0
+   Single-bit Sequential Cell Count:                       0
+   Multi-bit Sequential Cell Count:                        0
+   Sequential Cell Banking Ratio:                          0.00%
+   BitsPerflop:                                            0.00
+Macro Count:                          0
+----------------------------------------
+
+
+Area
+----------------------------------------
+Combinational Area:               34.31
+Noncombinational Area:             0.00
+Buf/Inv Area:                      6.35
+Total Buffer Area:                 0.00
+Total Inverter Area:               6.35
+Macro/Black Box Area:              0.00
+Net Area:                             0
+Net XLength:                      59.87
+Net YLength:                      71.84
+----------------------------------------
+Cell Area (netlist):                             34.31
+Cell Area (netlist and physical only):           34.31
+Net Length:                      131.72
+
+
+Design Rules
+----------------------------------------
+Total Number of Nets:                26
+Nets with Violations:                 0
+Max Trans Violations:                 0
+Max Cap Violations:                   0
+----------------------------------------
+
+1
