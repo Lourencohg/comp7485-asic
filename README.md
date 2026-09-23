@@ -44,15 +44,15 @@ https://www.ti.com/lit/ds/symlink/sn54ls85.pdf?ts=1790189442372&ref_url=https%25
 graph TD
     IN[<b>📄 comp7485.vhd</b>] --> S1
     
-    S1["<b>Simulação RTL</b><br>🛠️ GHDL + GTKWave<br>📊 2048 vetores"] --> S2
+    S1["<b>Simulação RTL</b><br> GHDL & GTKWave<br> 2048 vetores"] --> S2
     
-    S2["<b>Síntese Lógica</b><br>🛠️ Fusion Compiler<br>📊 37 portas ➔ 15 células"] --> S3
+    S2["<b>Síntese Lógica</b><br> Fusion Compiler<br>"] --> S3
     
-    S3["<b>Simulação Gate-Level</b><br>🛠️ Icarus Verilog<br>📊 netlist ≡ RTL"] --> S4
+    S3["<b>Simulação Gate-Level</b><br> Icarus Verilog<br> netlist ≡ RTL"] --> S4
     
-    S4["<b>Place & Route</b><br>🛠️ Fusion Compiler<br>📊 floorplan ➔ PG ➔ place ➔ pins ➔ route ➔ fillers"] --> OUT
+    S4["<b>Place & Route</b><br> Fusion Compiler<br> floorplan ➔ PG ➔ place ➔ pins ➔ route ➔ fillers"] --> OUT
     
-    OUT[<b>📦 comp7485.gds</b>]
+    OUT[<b> comp7485.gds</b>]
     
     %% Estilos opcionais para destacar os arquivos de entrada/saída
     classDef file fill:#e1f5fe,stroke:#0288d1,stroke-width:2px,color:#000
