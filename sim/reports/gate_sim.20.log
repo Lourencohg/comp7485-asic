@@ -1,0 +1,5 @@
+VCD info: dumpfile tb_comp7485_gate.vcd opened for output.
+Starting exhaustive gate-level test of comp7485 (2048 vectors)
+Tests run: 2048   Errors: 0
+GATE-LEVEL SIMULATION PASSED
+/home/lourenco/microeletronica/comp7485-asic/tb/tb_comp7485_gate.v:105: $finish called at 20480000 (1ps)

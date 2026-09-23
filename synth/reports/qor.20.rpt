@@ -1,12 +1,12 @@
-Timing Update Started(Full_timing_update) : updateCount: 1 / Mem-peak : 1010 MB / Date: Tue Sep 22 08:20:14 2026
+Timing Update Started(Full_timing_update) : updateCount: 1 / Mem-peak : 964 MB / Date: Tue Sep 22 11:44:01 2026
 
-Timing Update Completed: Mem-peak: 1010 MB / Date: Tue Sep 22 08:20:14 2026
+Timing Update Completed: Mem-peak: 964 MB / Date: Tue Sep 22 11:44:01 2026
 
 ****************************************
 Report : qor
 Design : comp7485
 Version: Y-2026.03-SP1
-Date   : Tue Sep 22 08:20:14 2026
+Date   : Tue Sep 22 11:44:01 2026
 ****************************************
 Information: Corner default: no PVT mismatches. (PVT-032)
 Information: The stitching and editing of coupling caps is turned OFF for design 'comp7485.dlib:comp7485.design'. (TIM-125)
