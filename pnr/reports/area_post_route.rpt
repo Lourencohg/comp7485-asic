@@ -1,0 +1,23 @@
+****************************************
+Report : area
+Design : comp7485
+Version: Y-2026.03-SP1
+Date   : Wed Sep 23 15:26:40 2026
+****************************************
+
+Number of ports:                           16
+Number of nets:                            28
+Number of cells:                           15
+Number of combinational cells:             15
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          5
+Number of references:                      13
+
+Combinational area:                     34.31
+Buf/Inv area:                            6.35
+Noncombinational area:                   0.00
+Macro/Black Box area:                    0.00
+
+Total cell area:                        34.31
+1

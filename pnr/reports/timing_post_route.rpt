@@ -1,0 +1,68 @@
+Information: The stitching and editing of coupling caps is turned OFF for design 'comp7485.dlib:comp7485_pnr.design'. (TIM-125)
+Information: Design comp7485_pnr has 28 nets, 0 global routed, 26 detail routed. (NEX-024)
+Information: The RC mode used is DR for design 'comp7485'. (NEX-022)
+---extraction options---
+Corner: default
+ late_cap_scale                : 1
+ late_res_scale                : 1
+ early_cap_scale               : 1
+ early_res_scale               : 1
+Global options:
+ reference_direction       : use_from_tluplus
+ real_metalfill_extraction : none
+ virtual_shield_extraction : true
+---app options---
+ host.max_cores                   : 4
+ extract.connect_open           : true
+ extract.enable_coupling_cap    : false
+Extracting design: comp7485_pnr 
+Information: coupling capacitance is lumped to ground. (NEX-030)
+Information: 26 nets are successfully extracted. (NEX-028)
+Warning: Advanced receiver model has not been enabled for detailed routed design. (TIM-204)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 26, routed nets = 26, across physical hierarchy nets = 0, parasitics cached nets = 26, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+Design : comp7485
+Version: Y-2026.03-SP1
+Date   : Wed Sep 23 15:26:40 2026
+****************************************
+
+  Startpoint: B[1] (input port clocked by vclk)
+  Endpoint: o_ALB (output port clocked by vclk)
+  Mode: default
+  Corner: default
+  Scenario: default
+  Path Group: **in2out_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock vclk (rise edge)                           0.00      0.00
+  clock network delay (ideal)                      0.00      0.00
+  input external delay                             0.00      0.00 r
+  B[1] (in)                                        0.00      0.00 r
+  phfnr_buf_24/Y (INVX0_RVT)                       0.04      0.04 f
+  A7/Y (AO21X1_RVT)                                0.15      0.19 f
+  A9/Y (OA221X1_RVT)                               0.22      0.40 f
+  A10/Y (OA22X1_RVT)                               0.17      0.58 f
+  A14/Y (AOI222X1_RVT)                             0.28      0.86 r
+  o_ALB (out)                                      0.00      0.86 r
+  data arrival time                                          0.86
+
+  clock vclk (rise edge)                          20.00     20.00
+  clock network delay (ideal)                      0.00     20.00
+  output external delay                           -0.00     20.00
+  data required time                                        20.00
+  ------------------------------------------------------------------------
+  data required time                                        20.00
+  data arrival time                                         -0.86
+  ------------------------------------------------------------------------
+  slack (MET)                                               19.14
+
+
+1
